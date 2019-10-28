@@ -1,0 +1,51 @@
+body{
+    margin: 20px;
+}
+.secondPart{
+    width: fit-content;
+    border: 2px solid #c26efa;
+    border-radius: 5px;
+    box-shadow: 0 0 5px blueviolet;
+    background-color: rgb(251, 246, 255);
+    padding: 20px;
+}
+.reviewInput{
+    display: flex;
+}
+.inputItem{
+    padding-right: 25px;
+}
+#movieName, #starRating{
+    border-radius: 2px;
+    text-decoration: none;
+}
+#rate, .deleteRow {
+    background-color: rgb(201, 161, 219);
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    margin-top: 20px;
+    width: 100%;
+}
+th, td{
+    text-align: left;
+    vertical-align: bottom;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: rgb(201, 161, 219);
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.deleteRow{
+    margin-left: 30%;
+    padding: 5px 15px;
+}

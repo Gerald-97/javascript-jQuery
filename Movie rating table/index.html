@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3 jQuery Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="secondPart">
+        <div class="reviewInput">
+            <div class="inputItem movieName">
+                <label for="movie">Name of Movie</label>
+                <input type="text" id="movieName">
+            </div>
+            <div class="inputItem movieRating">
+                <label for="rating">Rating</label>
+                <select name="rating" id="starRating">
+                    <option value="0">Select rating...</option>
+                    <option value="1">One star</option>
+                    <option value="2">Two stars</option>
+                    <option value="3">Three stars</option>
+                    <option value="4">Four stars</option>
+                    <option value="5">Five stars</option>
+                </select>
+            </div>
+            <button id="rate">Rate!</button>
+        </div>
+        <div class="reviewArea">
+            <table class="reviewTable">
+                <thead>
+                    <tr>
+                        <th><h4>Movies</h4></th>
+                        <th><h4>Rating</h4></th>
+                        <th><h4>Delete</h4></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gemini Man</td>
+                        <td class="movie1"></td>
+                        <td class="delete1"><button class='deleteRow'>Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>Wedding Party</td>
+                        <td class="movie2"></td>
+                        <td class="delete2"><button class='deleteRow'>Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>The Last of Us</td>
+                        <td class="movie3"></td>
+                        <td class="delete3"><button class='deleteRow'>Delete</button></td>
+                    </tr>
+                </tbody>
+                <button class="sort">Sort</button>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
